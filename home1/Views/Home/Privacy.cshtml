@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Controllers</h1>
+
+<h2>What is a Controller?</h2>
+<p>A controller is used to define and group a set of actions. An action (or action method) is a method on a controller which handles requests. Controllers logically group similar actions together. This aggregation of actions allows common sets of rules, such as routing, caching, and authorization, to be applied collectively. Requests are mapped to actions through routing.</p>
+
+<ul>
+    By convention, controller classes:
+    <li class="list-group-item list-group-item-info">Reside in the project's root-level Controllers folder.</li>
+    <li class="list-group-item list-group-item-light">Inherit from Microsoft.AspNetCore.Mvc.Controller.</li>
+</ul>
+<p>A controller is an instantiable class, usually public, in which at least one of the following conditions is true:</p>
+<ul>
+    <li class="list-group-item list-group-item-primary">The class name is suffixed with Controller.</li>
+    <li class="list-group-item list-group-item-warning">The class inherits from a class whose name is suffixed with Controller.</li>
+    <li class="list-group-item list-group-item-dark">The [Controller] attribute is applied to the class.</li>
+</ul>
+
+<p>A controller class must not have an associated [NonController] attribute.
+
+<p>Controllers should follow the Explicit Dependencies Principle. There are a couple of approaches to implementing this principle. If multiple controller actions require the same service, consider using constructor injection to request those dependencies. If the service is needed by only a single action method, consider using Action Injection to request the dependency.</p>
+<p>Within the Model-View-Controller pattern, a controller is responsible for the initial processing of the request and instantiation of the model. Generally, business decisions should be performed within the model.</p>
+<p>The controller takes the result of the model's processing (if any) and returns either the proper view and its associated view data or the result of the API call. Learn more at Overview of ASP.NET Core MVC and Get started with ASP.NET Core MVC and Visual Studio.</p>
+<p>The controller is a UI-level abstraction. Its responsibilities are to ensure request data is valid and to choose which view (or result for an API) should be returned. In well-factored apps, it doesn't directly include data access or business logic. Instead, the controller delegates to services handling these responsibilities.</p>
+<p>Learn more about controllers <a href="https://learn.microsoft.com/uk-ua/aspnet/core/mvc/controllers/actions?view=aspnetcore-7.0">in asp.Net</a>.</p>
