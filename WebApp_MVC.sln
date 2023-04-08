@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onlain_Shop", "Onlain_Shop\Onlain_Shop.csproj", "{416C68C5-9FC2-45C7-A19F-E5B37CE698E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onlain_Shop", "Onlain_Shop\Onlain_Shop.csproj", "{416C68C5-9FC2-45C7-A19F-E5B37CE698E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "home1", "home1\home1.csproj", "{DDB43568-36E6-49BB-B0FE-7CC9A4598679}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{416C68C5-9FC2-45C7-A19F-E5B37CE698E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{416C68C5-9FC2-45C7-A19F-E5B37CE698E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416C68C5-9FC2-45C7-A19F-E5B37CE698E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB43568-36E6-49BB-B0FE-7CC9A4598679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB43568-36E6-49BB-B0FE-7CC9A4598679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB43568-36E6-49BB-B0FE-7CC9A4598679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB43568-36E6-49BB-B0FE-7CC9A4598679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
